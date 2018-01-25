@@ -1,0 +1,193 @@
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+body{
+	background: url(../img/bg.jpg); 
+}
+
+#first{
+	background: url(../img/photo.jpg) no-repeat center top;
+	width: 1000px;
+	margin: 0 auto;
+	height: 450px;
+
+}
+.header__wrap{
+}
+
+.logo{
+	margin-top: 11px;
+	margin-left: 35px;
+}
+.logo__text{
+	text-decoration: none;
+	color: #128aa7;
+	font-family: "Tahoma" sans-serif;
+	font-size: 12px;
+	
+}
+.contact{
+	float: right;
+	padding-right: 42px;
+	padding-top: 11px;
+}
+.box__info{
+	list-style: none;
+}
+.box__info a{
+	text-decoration: none;
+	color: #128aa7;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.box__info li{
+	padding-top: 5px;
+}
+
+   /*Страны*/
+
+
+.country{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-right: 45px;
+	margin-top: -25px; 
+}
+.country__item{
+	list-style: none;
+}
+.country__item a{
+	color: #128aa7;
+	font-family: Tahoma;
+	font-size: 10px;
+	margin-left: 5px;
+}
+.country__item li{
+	display: inline-block;
+	margin-left: 16px;
+}
+.india{
+	background: url(../img/i-flag.png) no-repeat;
+	padding-top: 40px;
+	width: 42px;
+}
+.nepal{
+	background: url(../img/n-flag.png) no-repeat;
+	padding-top: 40px;
+	width: 42px;
+}
+.tibet{
+	background: url(../img/t-flag.png) no-repeat;
+	padding-top: 40px;
+	width: 42px;
+}
+.butan{
+	background: url(../img/b-flag.png) no-repeat;
+	padding-top: 40px;
+	width: 42px;
+}
+.lanka{
+	background: url(../img/s-flag.png) no-repeat center top;
+	padding-top: 40px;
+}
+.maldiv{
+	background: url(../img/m-flag.png) no-repeat center top;
+	padding-top: 40px;
+}
+
+
+
+.navigation{
+	background: #323232;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+ul.menu > li {
+	display: block;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-left: 1px solid #323232;
+    border-right: 1px solid #323232;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 98%;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid black;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #323232;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+	background-color: blue;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.block{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.left__block{
+	width: 209px;
+	background: #edeef0;
+	text-align: center;
+}
+.left__block h1{
+	color: #424c43;
+	font-family: 'Tahoma', sans-serif ;
+	font-size: 18px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.right__block{
+	width: 209px;
+	background: #edeef0;
+	text-align: center;
+}
+.right__block h1{
+	color: #424c43;
+	font-family: 'Tahoma', sans-serif ;
+	font-size: 18px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+footer p{
+	padding-top: 7px;
+	text-align: center;
+	font-family: "Tahoma",sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: #fff;
+}
